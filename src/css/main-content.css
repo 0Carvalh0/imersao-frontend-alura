@@ -92,3 +92,24 @@
     border-radius: 40px;
     border: none;
 }
+
+.content {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    color: white;
+    background: var(--color4);
+}
+
+.content .text {
+    margin-top: 26px;
+}
+
+.content .title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.content .subtitle {
+    font-size: 24px;
+}
