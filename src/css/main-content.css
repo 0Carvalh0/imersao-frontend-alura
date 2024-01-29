@@ -104,7 +104,7 @@
   margin: 24px;
 }
 
-.playlist #greeting {
+.playlist .greeting {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
@@ -331,3 +331,6 @@
 #result-artist {
   padding: 20px 40px;
 }
+
+/* HOVER */
+

@@ -91,7 +91,8 @@ body {
 }
 
 .sidebar__library .library .library__content .fa-plus {
-    margin: 25px 10px;
+    margin: 17px 2px;
+    padding: 8px;
 }
 
 .sidebar__library .library .section__playlist {
@@ -197,7 +198,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .footer .footer__content .subtitle {
@@ -218,4 +219,32 @@ body {
 
     font-weight: bold;
     font-size: 16px;
+}
+
+/* HOVER */
+
+.sidebar__navigation ul li a:hover {
+    color: white;
+}
+
+.sidebar__library .library .library__button:hover {
+    color: white;
+}
+
+.sidebar__library .library .library__content .fa-plus:hover {
+    color: white;
+    background-color: var(--color3);
+    border-radius: 50%;
+}
+
+.sidebar__library .library .section__playlist .section__playlist__content .section__playlist__button:hover {
+    transform: scale(1.05);
+}
+
+.sidebar__library .library .languages .languages__button:hover {
+    transform: scale(1.05);
+}
+
+.footer .footer__button:hover {
+    transform: scale(1.05);
 }
